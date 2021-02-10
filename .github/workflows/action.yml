@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: zhangjiang Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
-          to: ysys989833@gmail.com,1403260048@qq.com,all@huohua.ml,all@haobing.ml
-          from: GitHub Actions
+          to: ysy989833@gmail.com,1403260048@qq.com,all@huohua.ml,all@haobing.ml
+          from: Happy Github
           content_type: text/html
